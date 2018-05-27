@@ -5,3 +5,6 @@ collections:
     apex_of_creation:
         output: true
 collections_dir: books
+defaults:
+  -
+    scope:
