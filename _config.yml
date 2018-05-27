@@ -4,3 +4,4 @@ collections:
     output: true
   apex_of_creation:
     output: true
+collections_dir: books
