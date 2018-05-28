@@ -1,7 +1,18 @@
 theme: jekyll-theme-minimal
 collections:
+<<<<<<< HEAD
 - deathworld_origins:
     output: true
 - apex_of_creation:
     output: true
 collections_dir: books
+=======
+    deathworld_origins:
+        output: true
+    apex_of_creation:
+        output: true
+collections_dir: books
+defaults:
+  -
+    scope:
+>>>>>>> parent of a822fe2... fix?
