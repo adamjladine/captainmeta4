@@ -21,6 +21,7 @@
           {% for page in site.{{ collection }} %}
             <li><p><a href="{{ page.url }}">{{ page.title }}</a></p></li>
           {% endfor %}
+          </ul>
         {% endif %}
         
         {% if site.logo %}
