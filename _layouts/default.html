@@ -16,13 +16,12 @@
       <header>
         <h1><a href="{{ "/" | absolute_url }}">Captain Metaphor</a></h1>
         
-        {% if collection %}
-          <ul>
-          {% for page in site.{{ collection }} %}
+      <ul>
+          {% for page in collection %}
             <li><p><a href="{{ page.url }}">{{ page.title }}</a></p></li>
           {% endfor %}
-          </ul>
-        {% endif %}
+            </ul>
+          {% endif %}
         
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
