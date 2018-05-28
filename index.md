@@ -1,1 +1,3 @@
-# [Books](/books)
+# [Books](./books)
+
+# [Connect](./connect)
