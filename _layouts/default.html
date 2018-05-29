@@ -17,7 +17,7 @@
         <h1><a href="{{ "/" | absolute_url }}">Captain Metaphor</a></h1>
         
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
+          <img src="{{ "./logo.png" | absolute_url}}" alt="Captain Metaphor" />
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
