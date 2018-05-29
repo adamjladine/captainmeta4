@@ -1,12 +1,1 @@
 theme: jekyll-theme-minimal
-collections:
-    deathworld_origins:
-        output: true
-    apex_of_creation:
-        output: true
-collections_dir: books
-defaults:
-  - scope:
-        type: "apex_of_creation"
-    values:
-        layout: pages
