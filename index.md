@@ -2,6 +2,6 @@
 title: Captain Metaphor
 ---
 
-# [Books](./books)
+[Books](./books)
 
-# [Connect](./connect)
+[Connect](./connect)
