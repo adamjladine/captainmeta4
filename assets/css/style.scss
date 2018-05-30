@@ -5,3 +5,117 @@
 a:hover {
     font-weight: inherit;
 }
+
+
+/* Night Mode */
+
+body.night {
+  background-color: #000;
+  color:#8d8d8d;
+}
+
+.night h1,
+.night h2,
+.night h3,
+.night h4,
+.night h5,
+.night h6 {
+  color:#ddd;
+}
+
+.night h2 {
+  color:#c6c6c6;
+}
+
+.night h3, 
+.night h4, 
+.night h5, h6 {
+  color:#b6b6b6;
+}
+
+.night a {
+  color:#d98346;
+}
+
+.night a:hover,
+.night a:focus {
+  color:#f96;
+}
+
+.night a small {
+  color:#999;
+}
+
+.night a:hover small {
+  color:#999;
+}
+
+.night code,
+.night pre {
+    color:#ccc;
+}
+
+.night pre {
+  background: #070707;
+}
+
+
+.night th,
+.night td {
+  border-bottom:1px solid #1a1a1a;
+}
+
+.night dt {
+  color:#bbb;
+  font-weight:700;
+}
+
+.night th {
+  color:#bbb;
+}
+
+.night ul.downloads {
+  background: #0b0b0b;
+  border:1px solid #1f1f1f;
+}
+
+.night .downloads li {
+  border-right:1px solid #1f1f1f;
+}
+
+.night .downloads a {
+  color:#989898;
+}
+
+.night .downloads a:hover, 
+.night .downloads a:focus {
+  color:#98a3a3;
+}
+
+.night .downloads ul a:active {
+  background-color:#0f0f0f;
+}
+
+.night strong {
+  color:#ddd;
+}
+
+.night .downloads a strong {
+  color:#ddd;
+}
+
+.night hr {
+  background:#1a1a1a;
+}
+
+@media print, screen and (max-width: 960px) {
+  .night section {
+    border:1px solid #1a1a1a;
+  }
+}
+
+@media print {
+  body {
+    color:#bbb;
+  }
+}
