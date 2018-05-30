@@ -13,10 +13,9 @@
     <![endif]-->
     <script>
       function nightToggle() {
-        //switch night mode
         var toggle = document.getElementById("night-toggle");
-        var page = document.getElementByID("body")
-        if (toggle.checked==True){
+        var page = document.getElementById("body");
+        if (toggle.checked == True){
           page.classList.add("night");
         }
         else {
