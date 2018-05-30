@@ -13,18 +13,58 @@
     <![endif]-->
     <script>
       function nightToggle() {
+        //toggle night mode
         var toggle = document.getElementById("night-toggle");
         var page = document.getElementById("body");
         if (toggle.checked == true){
           page.classList.add("night");
+          setCookie("NightMode","true",365);
         }
         else {
           page.classList.remove("night");
+          setCookie("NightMode","true",365);
         }
       }
+    function getCookie(cname) {
+      var name = cname + "=";
+      var decodedCookie = decodeURIComponent(document.cookie);
+      var ca = decodedCookie.split(';');
+      for(var i = 0; i <ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+          c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+          return c.substring(name.length, c.length);
+        }
+      }
+      return "";
+    }
+      
+    function setCookie(cname, cvalue, exdays) {
+      var d = new Date();
+      d.setTime(d.getTime() + (exdays*24*60*60*1000));
+      var expires = "expires="+ d.toUTCString();
+      document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    }
+      
+    function checkNightMode() {
+      var nightMode = getCookie("NightMode");
+      if (nightMode != "") {
+        if (nightMode == true){
+          document.getElementById("night-toggle").checked = true;
+        }
+        else{
+          document.getElementById("night-toggle").checked = false;
+        }
+        nightToggle();
+      }
+      else {
+        setCookie("NightMode","false",365);
+    }
     </script>
   </head>
-  <body id="body">
+  <body id="body" onload="checkNightMode">
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">Captain Metaphor</a></h1>
