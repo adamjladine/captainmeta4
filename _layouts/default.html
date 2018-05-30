@@ -22,7 +22,7 @@
         }
         else {
           page.classList.remove("night");
-          setCookie("NightMode","true",365);
+          setCookie("NightMode","false",365);
         }
       }
     function getCookie(cname) {
@@ -51,12 +51,7 @@
     function checkNightMode() {
       var nightMode = getCookie("NightMode");
       if (nightMode != "") {
-        if (nightMode == true){
-          document.getElementById("night-toggle").checked = true;
-        }
-        else{
-          document.getElementById("night-toggle").checked = false;
-        }
+        document.getElementById("night-toggle").checked = Boolean(nightMode);
         nightToggle();
       }
       else {
