@@ -11,6 +11,19 @@
     <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
+    <script>
+      function nightToggle() {
+        //switch night mode
+        var toggle = document.getElementById("night-toggle");
+        var page = document.getElementByID("body")
+        if (toggle.checked==True){
+          page.classList.add("night");
+        }
+        else {
+          page.classList.remove("night");
+        }
+      }
+    </script
   </head>
   <body id="body">
     <div class="wrapper">
