@@ -51,7 +51,12 @@
     function checkNightMode() {
       var nightMode = getCookie("NightMode");
       if (nightMode != "") {
-        document.getElementById("night-toggle").checked = Boolean(nightMode);
+        if (nightMode == "true"){
+          document.getElementById("night-toggle").checked = true;
+        }
+        else {
+          document.getElementById("night-toggle").checked = false;
+        }
         nightToggle();
       }
       else {
