@@ -15,4 +15,6 @@ Sixty-five million years before the Vancouver Canucks and the Arizona Coyotes su
 * [Chapter V](./005)
 * [Chapter VI](./006)
 * [Chapter VII](./007)
-* [Chpater VIII](./008)
+* [Chapter VIII](./008)
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
