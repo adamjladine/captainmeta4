@@ -1,3 +1,7 @@
+---
+title: Teaser
+---
+
 # Teaser
 
 Private teaser area for upcoming chapters of Apex of Creation
