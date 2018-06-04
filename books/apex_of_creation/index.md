@@ -4,7 +4,7 @@ title: Apex of Creation
 
 # Apex of Creation
 
-When a college student is brought back from the brink of death by an angel, he learns that "created in the image of God" is not just a phrase. As he's dragged into transcendental politics and supernatural warfare, he must balance his life goals with the duties and responsibilities that come with his newfound power.
+When an engineering student is brought back from the brink of death by an angel, he learns that "created in the image of God" is not just a phrase, but rather a description of humanity's supernatural potential. As he's dragged into transcendental politics and supernatural warfare, he must balance his life goals with the duties and responsibilities that come with his newfound power.
 
 Apex of Creation is an ongoing serial started in May 2018.
 
