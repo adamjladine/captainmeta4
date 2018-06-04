@@ -18,15 +18,15 @@ The Github user agreement allows you to retain your rights over creative works h
 
 3. Open the repository settings.
 
-    <img src="https://puu.sh/AySku.png" style="border:1px solid #888">
+    <img src="https://puu.sh/AySku.png">
     
     Scroll down to the "Github Pages" section and click "Change Theme". Select any theme you like. I recommend the "Minimal" theme as it is easy to read on mobile.
     
-    <img src="https://puu.sh/AySzT.png" style="border:1px solid #888">
+    <img src="https://puu.sh/AySzT.png">
     
     
 4. Now you need to make a home page. From the main repository page, click "Create new File"
 
-    <img src="https://puu.sh/AySEv.png" style="border:1px solid #888">
+    <img src="https://puu.sh/AySEv.png">
     
     Name it "index.md"
