@@ -18,6 +18,6 @@ The Github user agreement allows you to retain your rights over creative works h
 
 3. Open the repository settings
 
-    ![](https://puu.sh/AySku.png)
+    <img src="https://puu.sh/AySku.png" style="border:1px solid black">
     
     
