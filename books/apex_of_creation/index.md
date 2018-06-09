@@ -16,3 +16,4 @@ Apex of Creation is an ongoing serial started in May 2018.
 * [Chapter IV](./004)
 * [Chapter V](./005)
 * [Chapter VI](./006)
+* [Chapter VII](./007)
