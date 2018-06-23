@@ -88,6 +88,10 @@
         <input id="night-toggle" type="checkbox" onClick="nightToggle()"></input>
       </header>
       <section>
+      
+        {% if page.series_url and page.series_name %}
+        <p><a href="{{ page.series_url }}"><- Back to {{ page.series_name }}</a></p>
+        {% endif %}
 
       {{ content }}
 
