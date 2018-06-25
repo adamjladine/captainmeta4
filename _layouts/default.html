@@ -86,16 +86,17 @@
         
         <label for="night-toggle">Night Mode</label>
         <input id="night-toggle" type="checkbox" onClick="nightToggle()"></input>
+
+        {% if page.series_url and page.series_title %}
+	<hr>
+        <p><a href="{{ page.series_url }}"><-- {{ page.series_title }}</a></p>
+		{% if page.chapter %}
+			<p>{% unless page.chapter == 1 %}<a href="./1">First</a>{% endunless %}{% if page.chapter >= 3 %} | <a href="./{{ page.chapter | minus: 1 }}">Previous</a{% endif %}{% unless page.final %} | <a href="./{{page.chapter | plus: 1}}">Next</a>{% endunless %}</p>
+		{% endif %}
+        {% endif %}
       </header>
       <section>
       
-        {% if page.series_url and page.series_title %}
-        <p><a href="{{ page.series_url }}"><-{{ page.series_title }}</a></p>
-		{% if page.chapter %}
-			<p><a href="{{ page.series_url }}/1">First</a> | <a href="{{ page.series_url }}/{{ page.chapter | minus: 1 }}">Previous</a> | <a href="{{ page.series_url }}/{{ page.chapter | plus: 1 }}">Next</a></p>
-		{% endif %}
-	<hr>
-        {% endif %}
 
       {{ content }}
 
