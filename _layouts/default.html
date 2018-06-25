@@ -85,11 +85,12 @@
         <p><a href="https://patreon.com/captainmeta4">Patreon</a></p>
         
         <label for="night-toggle">Night Mode</label>
-        <input id="night-toggle" type="checkbox" onClick="nightToggle()"></input>
+        <input id="night-toggle" type="checkbox" onClick="nightToggle()"></input><
 
         {% if page.series_url and page.series_title %}
+	<br>
 	<hr>
-        <p><a href="{{ page.series_url }}"><-- {{ page.series_title }}</a></p>
+        <p><a href="./.."><-- {{ page.series_title }}</a></p>
 		{% if page.chapter %}
 			<p>{% unless page.chapter == 1 %}<a href="./1">First</a>{% endunless %}{% if page.chapter >= 3 %} | <a href="./{{ page.chapter | minus: 1 }}">Previous</a>{% endif %}{% unless page.final %} | <a href="./{{ page.chapter | plus: 1}}">Next</a>{% endunless %}</p>
 		{% endif %}
