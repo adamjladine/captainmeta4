@@ -10,11 +10,11 @@ Apex of Creation is an ongoing serial started in May 2018.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
-* [Chapter I](./001)
-* [Chapter II](./002)
-* [Chapter III](./003)
-* [Chapter IV](./004)
-* [Chapter V](./005)
-* [Chapter VI](./006)
-* [Chapter VII](./007)
-* [Chapter VIII](./008)
+* [Chapter I](./1)
+* [Chapter II](./2)
+* [Chapter III](./3)
+* [Chapter IV](./4)
+* [Chapter V](./5)
+* [Chapter VI](./6)
+* [Chapter VII](./7)
+* [Chapter VIII](./8)
