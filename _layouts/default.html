@@ -95,7 +95,7 @@
 			<p>{% if page.chapter >= 3 %}<a href="./1">First</a> | {% endif %}{% if page.chapter >= 2 %}<a href="./{{ page.chapter | minus: 1 }}">Previous</a>{% endif %}{% unless page.final %}{% unless page.chapter == 1 %} | {% endunless %}<a href="./{{ page.chapter | plus: 1}}">Next</a>{% endunless %}</p>
 		{% endif %}
 	    	{% if page.reddit %}
-	    		<p><a href="http://redd.it/{{ page.reddit }}">Discuss on reddit</a></p>
+	    		<p><a href="http://redd.it/{{ page.reddit }}">Discuss {{page.title}} on reddit</a></p>
 		{% endif %}
         {% endif %}
       </header>
