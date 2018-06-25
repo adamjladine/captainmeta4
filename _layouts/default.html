@@ -90,7 +90,10 @@
       <section>
       
         {% if page.series_url and page.series_title %}
-        <p><a href="{{ page.series_url }}">Back to {{ page.series_title }}</a></p>
+        <p><a href="{{ page.series_url }}"><-{{ page.series_title }}</a></p>
+		{% if page.chapter %}
+			<p><a href="{{ page.series_url }}/1">First</a> | <a href="{{ page.series_url }}/{{ page.chapter | minus: 1 }}">Previous</a> | <a href="{{ page.series_url }}/{{ page.chapter | plus: 1 }}">Next</a></p>
+		{% endif %}
 	<hr>
         {% endif %}
 
