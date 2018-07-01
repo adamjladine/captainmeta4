@@ -21,9 +21,9 @@ The Github user agreement allows you to retain your rights over creative works h
     Name|Type|Data
     -|-|-
     @|A|185.199.108.153
-    |||185.199.109.153
-    |||185.199.110.153
-    |||185.199.111.153
+    ||185.199.109.153
+    ||185.199.110.153
+    ||185.199.111.153
     www|CNAME|<username>.github.io
 
     Then, create a new file called `CNAME` at the top level of the repository. Paste in the custom domain.
