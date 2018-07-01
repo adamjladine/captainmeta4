@@ -27,3 +27,13 @@ The Github user agreement allows you to retain your rights over creative works h
     www|CNAME|<username>.github.io
 
     Then, create a new file called `CNAME` at the top level of the repository. Paste in the custom domain.
+
+5. Rework the contents of the `/books/` folder as needed to contain your writing:
+
+    Contents|Github File Location|Public URL
+    -|-|-
+    List of your books|/books/index.md|/books
+    Book overview|/books/book_name/index.md|books/book_name
+    Individual Chapter|/books/book_name/1.md|books/book_name/1
+    
+    Individual chapters should be named `1.md`, `2.md`, `3.md`, etc. This, combined with the `chapter` tag at the top of each chapter file, will allow Jekyll to automatically generate First/Previous/Next links. The `series_title` and `series_url` tags let Jekyll add links to chapter pages to view the book overview pages.
