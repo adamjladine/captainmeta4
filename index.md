@@ -9,3 +9,5 @@ title: Captain Metaphor
 [Connect](./connect)
 
 [Bots](./bots)
+
+[Guides](./guides)
