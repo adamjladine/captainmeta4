@@ -14,9 +14,9 @@ The Github user agreement allows you to retain your rights over creative works h
 
 3. Open repository settings. Under "Github Pages", click "Change Theme" and select the "Minimal" theme. (You can select a different theme if you really want to, but you will need to delete the customization files located at `_layouts/default.html` and `assets/css/style.scss`.)
 
-3. If you **will not** be using a custom domain name, rename your repository to `<username>`.github.io, where `<username>` is **your** username.
+3. If you **will not** be using a custom domain name, rename your repository to \<username>.github.io, where \<username> is **your** username.
 
-4. If you **will** be using a custom domain name, create the following DNS records (where `<username>` is your github username):
+4. If you **will** be using a custom domain name, create the following DNS records (where \<username> is your github username):
 
     Name|Type|Data
     -|-|-
@@ -24,7 +24,7 @@ The Github user agreement allows you to retain your rights over creative works h
     ||185.199.109.153
     ||185.199.110.153
     ||185.199.111.153
-    www|CNAME|<username>.github.io
+    www|CNAME|\<username>.github.io
 
     Then, create a new file called `CNAME` at the top level of the repository. Paste in the custom domain.
 
