@@ -90,7 +90,7 @@
         {% if page.collection %}
 	<p></p>
 	<hr>
-        <p><a href="{{ page.path }}"><-- {{ page.collection }}</a></p>
+        <p><a href="{{ page.series_url }}"><-- {{ page.series_title}}</a></p>
 		{% if page.chapter %}
 			<p>{% if page.chapter >= 3 %}<a href="./1">First</a> | {% endif %}{% if page.chapter >= 2 %}<a href="./{{ page.chapter | minus: 1 }}">Previous</a>{% endif %}{% unless page.final %}{% unless page.chapter == 1 %} | {% endunless %}<a href="./{{ page.chapter | plus: 1}}">Next</a>{% endunless %}</p>
 		{% endif %}

@@ -3,8 +3,6 @@ plugins:
     - jekyll-redirect-from
 collections:
     apex_of_creation:
-        series_title: Apex of Creation
-        series_url: /books/apex_of_creation
         output: true
         permalink: /books/:collection/:name
     deathworld_origins:
@@ -18,3 +16,15 @@ defaults:
         path: ""
     values:
         layout: default
+  - scope:
+        path: ""
+        collection: apex_of_creation
+    values:
+        series_title: Apex of Creation
+        series_url: /books/apex_of_creation
+  - scope:
+        path: ""
+        collection: deathworld_origins
+    values:
+        series_title: Deathworld Origins
+        series_url: /books/deathworld_origins
