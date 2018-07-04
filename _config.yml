@@ -6,8 +6,12 @@ collections:
         series_title: Apex of Creation
         series_url: /books/apex_of_creation
         output: true
+        layout: default
+        permalink: /books/:collection/:name
     deathworld_origins:
         series_title: Deathworld Origins
         series_url: /books/deathworld_origins
         output: true
+        layout: default
+        permalink: /books/:collection/:name
 collections_dir: books
