@@ -1,3 +1,10 @@
 theme: jekyll-theme-minimal
 plugins:
     - jekyll-redirect-from
+collections:
+    apex_of_creation:
+        series_title: Apex of Creation
+        series_url: /books/apex_of_creation
+    deathworld_origins:
+        series_title: Deathworld Origins
+        series_url: /books/deathworld_origins
