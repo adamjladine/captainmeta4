@@ -13,8 +13,8 @@
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
 
-    {% if page.collection %}
-    <title>{{ page.collection }} - {{ page.title | default: "Captain Metaphor" }}</title>
+    {% if page.series_title %}
+    <title>{{ page.series_title }} - {{ page.title | default: "Captain Metaphor" }}</title>
     {% else %}
     <title>{{ page.title | default: "Captain Metaphor" }}</title>
     {% endif %}
