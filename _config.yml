@@ -14,6 +14,7 @@ collections:
         permalink: /books/:collection/:name
 collections_dir: books
 defaults:
+    -
     scope:
         path: ""
     values:
