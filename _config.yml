@@ -6,8 +6,6 @@ collections:
         output: true
         permalink: /books/:collection/:name
     deathworld_origins:
-        serues_title: Deathworld Origins
-        series_url: /books/deathworld_origins
         output: true
         permalink: /books/:collection/:name
 collections_dir: books
