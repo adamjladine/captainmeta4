@@ -113,7 +113,7 @@
       <footer>
 	      {% if page.collection %}=
 	      <ul>
-		      {% for page in site.collections["{{ page.collection }}"] %}
+		      {% for page in site.collections["{{ page.collection }}"].docs %}
 		      <li><a href="{{ page.url }}">{{ page.title }}</a></li>
 		      {% endfor %}
 	      </ul>
