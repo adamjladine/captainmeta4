@@ -111,13 +111,7 @@
 
       </section>
       <footer>
-	      {% if page.collection %}
-	      <ul>
-		      {% for page in site.{{ page.collection }} %}
-		      <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-		      {% endfor %}
-	      </ul>
-	      {% endif %}
+
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
