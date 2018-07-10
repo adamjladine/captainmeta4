@@ -15,14 +15,14 @@ defaults:
     values:
         layout: default
   - scope:
-        path: "/books/_apex_of_creation"
-        collection: apex_of_creation
+        path: ""
+        type: "apex_of_creation"
     values:
         series_title: Apex of Creation
         series_url: /books/apex_of_creation
   - scope:
-        path: "/books/_deathworld_origins"
-        collection: deathworld_origins
+        path: ""
+        type: "deathworld_origins"
     values:
         series_title: Deathworld Origins
         series_url: /books/deathworld_origins
