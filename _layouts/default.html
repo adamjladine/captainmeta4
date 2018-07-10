@@ -111,6 +111,14 @@
 
       </section>
       <footer>
+	      {% if page.footer %}
+	      <p> This is where the footer is.</p>
+	      <ul>
+		      <li>Chapter 1</li>
+		      <li>Chapter 2</li>
+		      <li>Chapter 3</li>
+	      </ul>
+	      {% endif %}
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
