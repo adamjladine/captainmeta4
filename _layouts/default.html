@@ -111,9 +111,9 @@
 
       </section>
       <footer>
-	      {% if page.collection %}=
+	      {% if page.collection %}
 	      <ul>
-		      {% for page in site.collections["{{ page.collection }}"].docs %}
+		      {% for page in site.{{ page.collection }}.docs %}
 		      <li><a href="{{ page.url }}">{{ page.title }}</a></li>
 		      {% endfor %}
 	      </ul>
