@@ -112,7 +112,15 @@
       </section>
       <footer>
 	      {% if page.collection %}
-	      <p> {{ site.{{ page.collection }}.label }} </p>
+	          {% for collection in site.collections %}
+	              {% if collection.label == page.collection %}
+		              <ul>
+		  		  	  {% for page in collection %}
+						  <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+		              {% endfor %}
+		  			  </ul>
+	      	      {% endif %}
+	          {% endfor %}
 	      {% endif %}
       </footer>
     </div>
