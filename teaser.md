@@ -1,5 +1,6 @@
 ---
 title: Teaser
+footer: true
 ---
 
 # Teaser
