@@ -111,13 +111,8 @@
 
       </section>
       <footer>
-	      {% if page.footer %}
-	      <p> This is where the footer is.</p>
-	      <ul>
-		      <li>Chapter 1</li>
-		      <li>Chapter 2</li>
-		      <li>Chapter 3</li>
-	      </ul>
+	      {% if page.collection %}
+	      <p> {{ site.{{ page.collection }}.label }} </p>
 	      {% endif %}
       </footer>
     </div>
