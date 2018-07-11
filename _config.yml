@@ -14,6 +14,7 @@ defaults:
         path: ""
     values:
         layout: default
+        night: true
   - scope:
         path: ""
         type: "apex_of_creation"
