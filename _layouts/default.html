@@ -32,13 +32,17 @@
       function nightToggle() {
         //toggle night mode
         var toggle = document.getElementById("night-toggle");
-        var page = document.getElementById("body");
+        var elements = document.getElementsByClassName("body");
         if (toggle.checked == true){
-          page.classList.add("night");
+			for (var i = 0; i < list.length; i++){
+				elements[i].classList.add("night")
+			}
           setCookie("NightMode","true",365);
         }
         else {
-          page.classList.remove("night");
+			for (var i = 0; i < list.length; i++){
+				elements[i].classList.remove("night")
+			}
           setCookie("NightMode","false",365);
         }
       }
@@ -82,7 +86,7 @@
     }
     </script>
   </head>
-  <body id="body" onload="checkNightMode()">
+  <body id="body" class="body" onload="checkNightMode()">
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">Captain Metaphor</a></h1>
