@@ -28,6 +28,7 @@
     <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
+	{% if page.night %}
     <script>
       function nightToggle() {
         //toggle night mode
@@ -81,17 +82,20 @@
       }
     }
     </script>
+	  {% endif %}
   </head>
   <body id="body" onload="checkNightMode()">
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">Captain Metaphor</a></h1>
         
-	<p><a href="https://patreon.com/captainmeta4">Patreon</a></p>
-	      
+		<p><a href="https://patreon.com/captainmeta4">Patreon</a></p>
+		  
+	    {% if page.night %}
         <input id="night-toggle" type="checkbox" onClick="nightToggle()"></input>
         <label for="night-toggle">Night Mode</label>
-
+		{% endif %}
+		
         {% if page.collection %}
 	<p></p>
 	<hr>
