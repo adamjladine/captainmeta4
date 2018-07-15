@@ -1,0 +1,16 @@
+---
+title: Patreon Rewards
+---
+
+<div id="patreon-display" onload="loadView()"></div>
+<script>
+    function loadView(){
+        r=new XMLHttpRequest;
+        r.open("GET", "https://api.captainmeta4.me/patreon");
+        var x = document.getElementById('display-patreon');
+        x.innerHTML=r.response;
+    }
+</script>
+    
+    
+    
