@@ -1,6 +1,12 @@
 ---
 title: Patreon Rewards
-night: false
 ---
 
-<iframe id="iframe-patreon" src="https://api.captainmeta4.me/patreon" width="100%" frameborder="0" marginheight="0" marginwidth="0" height='800px'>Loading...</iframe>
+<iframe id="iframe-patreon" src="https://api.captainmeta4.me/patreon" style="display:none"></iframe>
+<script>
+function displayContent() {
+    var x = document.getElementById("iframe-patreon").srcdoc;
+    document.getElementById("display-patreon").innerHTML = x;
+}
+</script>
+<div id="display-patreon" onload="displayContent()"></div>
