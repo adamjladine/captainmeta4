@@ -10,6 +10,7 @@ title: Patreon Rewards
             var x = document.getElementById('display-patreon');
             x.innerHTML=r.response;
         }
+        r.withCredentials=true
         r.send();
     }
 </script>
