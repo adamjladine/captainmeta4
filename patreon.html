@@ -7,6 +7,7 @@ title: Patreon Rewards
     function loadView(){
         r=new XMLHttpRequest;
         r.open("GET", "https://api.captainmeta4.me/patreon");
+        r.send();
         var x = document.getElementById('display-patreon');
         x.innerHTML=r.response;
     }
