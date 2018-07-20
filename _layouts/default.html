@@ -104,7 +104,7 @@
 	    <hr>
         <p><a href="{{ page.series_url }}">← {{ page.series_title}}</a></p>
 		{% if page.chapter %}
-			<p>{% if page.chapter >= 3 %}<a href="./1">First</a> | {% endif %}{% if page.chapter >= 2 %}<a href="./{{ page.chapter | minus: 1 }}">Previous</a>{% endif %}{% unless page.final %}{% unless page.chapter == 1 %} | {% endunless %}{% if page.final=="patreon" %}<a href="/patreon">Next</a>{% else %}<a href="./{{ page.chapter | plus: 1}}">Next</a>{% endif %}{% endunless %}</p>
+			<p>{% if page.chapter >= 3 %}<a href="./1">First</a> | {% endif %}{% if page.chapter >= 2 %}<a href="./{{ page.chapter | minus: 1 }}">Previous</a>{% endif %}{% unless page.final=="true" %}{% unless page.chapter == 1 %} | {% endunless %}{% if page.final=="patreon" %}<a href="/patreon">Next</a>{% else %}<a href="./{{ page.chapter | plus: 1}}">Next</a>{% endif %}{% endunless %}</p>
 		{% endif %}
 	    	{% if page.reddit %}
 	    		<p><a href="http://redd.it/{{ page.reddit }}">Discuss {{page.title}} on reddit</a></p>
