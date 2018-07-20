@@ -176,11 +176,11 @@ input:checked + .slider:before {
 
 /* float the footer to the bottom if the screen is too short */
 
-@media print, screen and (max-height:800px) and (min-width:960px) {
+@media print, screen and (max-height: 800px) and (min-width: 960px) {
     footer {
-        float: none;
+        float:none;
         position: static;
-        width: auto;
-        left: 416px
+        width: calc(100% - 360px);
+        margin-left: 360px;
     }
 }
