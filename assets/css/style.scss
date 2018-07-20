@@ -15,6 +15,18 @@ body section img{
 
 /* Night Mode */
 
+iframe#discord-widget-dark {
+    display: none
+}
+
+.night iframe#discord-widget-dark {
+    display: block
+}
+
+.night iframe#discord-widget-light {
+    display: none
+}
+
 body.night {
   background-color: #000;
   color:#ddd;
@@ -164,16 +176,6 @@ input:checked + .slider:before {
   -ms-transform: translateX(26px);
   transform: translateX(26px);
 }
-
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
-}
-
 /* float the footer to the bottom if the screen is too short */
 
 @media print, screen and (max-height: 800px) and (min-width: 960px) {
