@@ -15,18 +15,6 @@ body section img{
 
 /* Night Mode */
 
-iframe#discord-widget-dark {
-    display: none
-}
-
-.night iframe#discord-widget-dark {
-    display: block
-}
-
-.night iframe#discord-widget-light {
-    display: none
-}
-
 body.night {
   background-color: #000;
   color:#ddd;
