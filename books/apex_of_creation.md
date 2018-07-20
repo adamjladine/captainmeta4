@@ -1,5 +1,6 @@
 ---
 title: Apex of Creation
+discord: true
 ---
 
 # Apex of Creation
