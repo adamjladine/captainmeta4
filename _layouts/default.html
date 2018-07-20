@@ -107,9 +107,7 @@
 	    		<p><a href="http://redd.it/{{ page.reddit }}">Discuss {{page.title}} on reddit</a></p>
 		{% endif %}
         {% endif %}
-        {% if page.discord %}
-        <iframe id="discord-widget" src="https://discordapp.com/widget?id=449916896117129237&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
-        {% endif %}
+
       </header>
       <section>
       
@@ -119,7 +117,9 @@
 
       </section>
       <footer>
-
+        {% if page.discord %}
+        <iframe id="discord-widget" src="https://discordapp.com/widget?id=449916896117129237&theme=dark" width="300" height="500" allowtransparency="true" frameborder="0"></iframe>
+        {% endif %}
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
