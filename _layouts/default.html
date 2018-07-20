@@ -97,8 +97,8 @@
 		{% endif %}
 		
         {% if page.collection %}
-	<p></p>
-	<hr>
+	    <p></p>
+	    <hr>
         <p><a href="{{ page.series_url }}">← {{ page.series_title}}</a></p>
 		{% if page.chapter %}
 			<p>{% if page.chapter >= 3 %}<a href="./1">First</a> | {% endif %}{% if page.chapter >= 2 %}<a href="./{{ page.chapter | minus: 1 }}">Previous</a>{% endif %}{% unless page.final %}{% unless page.chapter == 1 %} | {% endunless %}<a href="./{{ page.chapter | plus: 1}}">Next</a>{% endunless %}</p>
@@ -107,9 +107,13 @@
 	    		<p><a href="http://redd.it/{{ page.reddit }}">Discuss {{page.title}} on reddit</a></p>
 		{% endif %}
         {% endif %}
+        {% if page.discord %}
+        <iframe src="https://discordapp.com/widget?id=449916896117129237&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+        {% endif %}
       </header>
       <section>
       
+
 
       {{ content }}
 
