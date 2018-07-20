@@ -176,10 +176,11 @@ input:checked + .slider:before {
 
 /* float the footer to the bottom if the screen is too short */
 
-@media print, screen and (max-height: 750px) {
+@media print, screen and (max-height: 800px; min-width: 960) {
     footer {
         float: none;
         position: static;
-        width: auto
+        width: auto;
+        left: 416px
     }
 }
