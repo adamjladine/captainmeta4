@@ -21,6 +21,7 @@ defaults:
     values:
         series_title: Apex of Creation
         series_url: /books/apex_of_creation
+        discord: true
   - scope:
         path: ""
         type: "deathworld_origins"
