@@ -5,8 +5,13 @@ title: Patreon Rewards
 <div id="display-patreon"></div>
 <script>
     function loadView(){
+        var query=window.location.href.split("?")[1]
+        var url="https://api.captainmeta4.me/patreon"
+        if (Boolean(query)) {
+            url=url+"?"+query
+        }
         var r = new XMLHttpRequest();
-        r.open("GET", "https://api.captainmeta4.me/patreon");
+        r.open("GET", url);
         r.onload=function displayView(){
             var x = document.getElementById('display-patreon');
             x.innerHTML=r.response;
