@@ -1,6 +1,7 @@
 ---
 title: Apex of Creation
 discord: true
+redirect_from: /books/apex_of_creation/
 ---
 
 # Apex of Creation
