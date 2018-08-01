@@ -1,5 +1,6 @@
 ---
 title: Deathworld Origins
+redirect_from: /books/deathworld_origins/
 ---
 
 # Deathworld Origins
