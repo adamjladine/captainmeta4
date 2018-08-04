@@ -16,3 +16,20 @@ layout: default
 {% endfor %}
 </ul>
 {% endif %}
+{% if page.humans or page.angels or page.demons or page.souls %}
+<p>This chapter was {% unless page.hybrids %}also {% endunless %} produced with the support of:</p>
+<ul>
+  {% if page.humans %}
+  <li>{{ page.humans }} Humans</li>
+  {% endif %}
+  {% if page.angels %}
+  <li>{{ page.angels }} Angelic Soldiers</li>
+  {% endif %}
+  {% if page.demons %}
+  <li>{{ page.demons }} Demon Underlings</li>
+  {% endif %}
+  {% if page.souls %}
+  <li>{{ page.souls }} Squishy Souls</li>
+  {% endif %}
+</ul>
+{% endif %}
