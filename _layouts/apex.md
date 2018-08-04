@@ -2,6 +2,8 @@
 layout: default
 ---
 
+# {{ page.title }}
+
 {{ content }}
 
 **==END {{ page.title }}==**
