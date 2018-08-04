@@ -8,10 +8,11 @@ layout: default
 
 <p><b>===END {{ page.title }}===</b></p>
 
+{% if page.hybrids %}
 <p>This chapter was produced with the support of my Hybrid patrons:</p>
-
 <ul>
 {% for name in page.hybrids %}
   <li>{{ name }}</li>
 {% endfor %}
 </ul>
+{% endif %}
