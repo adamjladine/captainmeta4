@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+{{ content }}
+
+<p><strong>==END {{ page.title }}==</strong></p>
+
+<p>This chapter was produced with the support of my Hybrid patrons:</p>
+
+<ul>
+{% for name in page.hybrids %}
+  <li>{{ name }}</li>
+{% endfor %}
+</ul>
