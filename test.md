@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: apex
 ---
 
 This is the content
