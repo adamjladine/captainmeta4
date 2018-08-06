@@ -2,6 +2,8 @@
 title: Reddit Webtools
 ---
 
+# Reddit Webtools
+
 <div id="display-identity"></div>
 <script>
     function loadView(){
@@ -16,8 +18,12 @@ title: Reddit Webtools
             var x = document.getElementById('display-identity');
             x.innerHTML=r.response;
         }
-        r.withCredentials=true
+        r.withCredentials=true;
         r.send();
     }
     loadView()
 </script>
+
+Tool|Description
+-|-
+[Comment Cleaner](./comment_cleaner | Deletes all of your existing comments. Yes, *all* of them.
