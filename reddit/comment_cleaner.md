@@ -1,5 +1,6 @@
 ---
 title: Reddit Comment Cleaner
+layout: reddit
 ---
 
 This tool deletes all of your reddit comments.
