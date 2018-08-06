@@ -11,22 +11,24 @@ This process cannot be stopped once started.
 </div>
 <script>
     function doubleCheck(){
-        var link=document.getElementById('display-result');
-        link.innerHTML='<p>Are you sure? <a href="javascript:imSure();">Yes</a> / <a href="javascript:nope();">No</a></p>'
+        var x=document.getElementById('display-result');
+        x.innerHTML='<p>Are you sure?</p><p><a href="javascript:imSure();">Yes</a> / <a href="javascript:nope();">No</a></p>'
     }
     function nope(){
-        var link=document.getElementById('display-result')
-        link.innerHTML='<p><a href="javascript:doubleCheck();">Click here to delete your comments</a></p>'
+        var x=document.getElementById('display-result')
+        x.innerHTML='<p><a href="javascript:doubleCheck();">Click here to delete your comments</a></p>;
     }
     function imSure(){
-        var url="https://api.captainmeta4.me/reddit/identity"
+        var url="https://api.captainmeta4.me/reddit/clean_comments"
         var r = new XMLHttpRequest();
-        r.open("GET", url);
+        r.open("POST", url);
         r.onload=function displayView(){
             var x = document.getElementById('display-result');
             x.innerHTML=r.response;
         }
         r.withCredentials=true;
         r.send();
+        var x = document.getElementById('display-result');
+        x.innerHTML='<p>captainmeta4.me is now deleting your comments. This message will update when the process is complete
     }
 </script>
