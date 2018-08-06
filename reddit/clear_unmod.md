@@ -7,7 +7,7 @@ This tool approves all items in a subreddit's unmoderated queue.
 
 <p>Subreddit:</p>
 <input type="text" name="subreddit" id="sub-input"><br>
-<button type=submit onClick="hitAPI()">Clear Unmod</button>
+<button type="button" onClick="hitAPI()">Clear Unmod</button>
 <div id="display-result"><div>
 <script>
 function hitAPI() {
