@@ -30,6 +30,6 @@ This process cannot be stopped once started.
         r.withCredentials=true;
         r.send();
         var x = document.getElementById('display-result');
-        x.innerHTML='<p>captainmeta4.me is now deleting your comments. This message will update when the process is complete</p>'
+        x.innerHTML='<p>captainmeta4.me is now deleting your comments. This message will update when the process is complete.</p>'
     }
 </script>
