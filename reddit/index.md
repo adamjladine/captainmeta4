@@ -26,4 +26,4 @@ title: Reddit Webtools
 
 Tool|Description
 -|-
-[Comment Cleaner](./comment_cleaner | Deletes all of your existing comments. Yes, *all* of them.
+[Comment Cleaner](./comment_cleaner) | Deletes all of your existing comments. Yes, *all* of them.
