@@ -11,11 +11,11 @@ This process cannot be stopped once started.
 </div>
 <script>
     function doubleCheck(){
-        var link=document.getElementByID('display-result');
+        var link=document.getElementById('display-result');
         link.innerHTML='<p>Are you sure? <a href="javascript:imSure();">Yes</a> / <a href="javascript:nope();">No</a></p>'
     }
     function nope(){
-        var link=document.getElementByID('display-result')
+        var link=document.getElementById('display-result')
         link.innerHTML='<p><a href="javascript:doubleCheck();">Click here to delete your comments</a></p>'
     }
     function imSure(){
