@@ -8,16 +8,16 @@ This tool deletes all of your reddit comments.
 This process cannot be stopped once started.
 
 <div id="display-result">
-<p><a href="javascript:doubleCheck();">Click here to delete your comments</a></p>
+<button type="button" onClick="doubleCheck()">Click here to delete your comments</button>
 </div>
 <script>
     function doubleCheck(){
         var x=document.getElementById('display-result');
-        x.innerHTML='<p>Are you sure?</p><p><a href="javascript:imSure();">Yes</a> / <a href="javascript:nope();">No</a></p>';
+        x.innerHTML='Are you sure?</p><p><button type="button" onClick="imSure()">Yes</button><button type="button" onClick="nope()">No</button>';
     }
     function nope(){
         var x=document.getElementById('display-result')
-        x.innerHTML='<p><a href="javascript:doubleCheck();">Click here to delete your comments</a></p>';
+        x.innerHTML='<button type="button" onClick="doubleCheck()">Click here to delete your comments</button>';
     }
     function imSure(){
         var url="https://api.captainmeta4.me/reddit/clean_comments"
