@@ -6,7 +6,7 @@ layout: default
 
 <div id="display-identity"></div>
 <script>
-    function loadView(){
+    function loadRedditIdentity(){
         var query=window.location.href.split("?")[1]
         var url="https://api.captainmeta4.me/reddit/identity"
         if (Boolean(query)) {
@@ -21,7 +21,8 @@ layout: default
         r.withCredentials=true;
         r.send();
     }
-    loadView()
+    loadRedditIdentity()
 </script>
+<p></p>
 
 {{ content }}
