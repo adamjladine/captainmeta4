@@ -14,6 +14,7 @@ function hitAPI() {
     var sub = document.getElementById('sub-input').value
     var x= new XMLHttpRequest();
     x.open("POST", "https://api.captainmeta4.me/reddit/clear_unmod?subreddit="+sub);
+    x.headers['Content-Type']='multipart/form-data'
     x.withCredentials=true;
     x.onload=function displayView(){
         var y = document.getElementById('display-result');
