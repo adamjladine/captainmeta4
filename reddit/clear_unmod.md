@@ -20,6 +20,8 @@ function hitAPI() {
         var y = document.getElementById('display-result');
         y.innerHTML=r.response;
     }
-    x.send(JSON.stringify({"subreddit": sub}));
+    var y = new FormData();
+    y.append('subreddit',sub);
+    x.send(y);
 }
 </script>
