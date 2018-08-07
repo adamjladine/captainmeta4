@@ -13,13 +13,15 @@ This tool approves all items in a subreddit's unmoderated queue.
 function hitAPI() {
     var sub = document.getElementById('sub-input').value
     var x= new XMLHttpRequest();
-    x.open("POST", "https://api.captainmeta4.me/reddit/clear_unmod?subreddit="+sub);
+    x.open("POST", "https://api.captainmeta4.me/reddit/clear_unmod);
     x.headers['Content-Type']='multipart/form-data'
     x.withCredentials=true;
     x.onload=function displayView(){
         var y = document.getElementById('display-result');
         y.innerHTML=r.response;
     }
-    x.send();
+    var data = new FormData();
+    data.append('subreddit',sub);
+    x.send(data);
 }
 </script>
