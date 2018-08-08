@@ -28,7 +28,6 @@ This process cannot be stopped once started.
             x.innerHTML=r.response;
         }
         r.withCredentials=true;
-        r.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
         r.send();
         var x = document.getElementById('display-result');
         x.innerHTML='<p>Initiating...</p>'
