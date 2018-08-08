@@ -22,8 +22,7 @@ function hitAPI() {
         var y = document.getElementById('display-result');
         y.innerHTML=x.response;
     }
-    var data = new FormData();
-    data.append('subreddit',sub);
+    var data = "subreddit="+sub
     x.send(data);
     var y = document.getElementById('display-result');
     y.innerHTML="<p>Sending...</p>";
