@@ -20,7 +20,7 @@ function hitAPI() {
     x.setRequestHeader('Content-type','application/x-www-form-urlencoded');
     x.onload=function displayView(){
         var y = document.getElementById('display-result');
-        y.innerHTML=r.response;
+        y.innerHTML=x.response;
     }
     var data = new FormData();
     data.append('subreddit',sub);
