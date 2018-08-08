@@ -5,6 +5,8 @@ title: Clear Unmoderated
 
 This tool approves all items in a subreddit's unmoderated queue.
 
+This process cannot be stopped once started.
+
 <p>Subreddit:</p>
 <input type="text" name="subreddit" id="sub-input"><br>
 <button type="button" onClick="hitAPI()">Clear Unmod</button>
@@ -24,6 +26,6 @@ function hitAPI() {
     data.append('subreddit',sub);
     x.send(data);
     var y = document.getElementById('display-result');
-    y.innerHTML="Sending..."
+    y.innerHTML="<p>Sending...</p>"
 }
 </script>
