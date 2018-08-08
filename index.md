@@ -8,6 +8,8 @@ title: Captain Metaphor
 
 [Things I Like](./likes)
 
+[Reddit Webtools](./reddit)
+
 [Connect](./connect)
 
 [Bots](./bots)
