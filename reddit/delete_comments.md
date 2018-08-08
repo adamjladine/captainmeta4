@@ -1,5 +1,5 @@
 ---
-title: Reddit Comment Cleaner
+title: Delete Comments
 layout: reddit
 ---
 
