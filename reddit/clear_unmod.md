@@ -26,6 +26,6 @@ function hitAPI() {
     data.append('subreddit',sub);
     x.send(data);
     var y = document.getElementById('display-result');
-    y.innerHTML="<p>Sending...</p>"
+    y.innerHTML="<p>Sending...</p>";
 }
 </script>
