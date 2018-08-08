@@ -30,6 +30,6 @@ This process cannot be stopped once started.
         r.withCredentials=true;
         r.send();
         var x = document.getElementById('display-result');
-        x.innerHTML='<p>Initiating...</p>'
+        x.innerHTML='<p>Sending...</p>'
     }
 </script>
