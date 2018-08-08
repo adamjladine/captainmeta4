@@ -17,7 +17,7 @@ function hitAPI() {
     var x= new XMLHttpRequest();
     x.open("POST", "https://api.captainmeta4.me/reddit/clear_unmod");
     x.withCredentials=true;
-    x.setRequestHeader('Content-type','application/x-www-form-urlencoded');
+    x.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
     x.onload=function displayView(){
         var y = document.getElementById('display-result');
         y.innerHTML=x.response;
