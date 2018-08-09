@@ -3,7 +3,7 @@ title: Prune Subreddit Bans
 layout: reddit
 ---
 
-This tool checks users in a subreddit ban list, and removes (unbans) accounts that are deleted, suspended, shadowbanned.
+This tool checks users in a subreddit ban list, and removes (unbans) accounts that are deleted, suspended, or shadowbanned.
 
 This process cannot be stopped once started.
 
