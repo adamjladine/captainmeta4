@@ -26,8 +26,8 @@ p span.grey {
     color: #888;
 }
 
-div.irclogs {
-    font-family: "Courier New";
+div.irclogs > p {
+    font-family: "Courier New", Courier, Monospace;
 }
 
 /* Night Mode */
