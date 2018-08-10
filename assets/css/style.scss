@@ -17,13 +17,16 @@ p span.red {
     color: red;
 }
 p span.green {
-    color: green;
+    color: lightgreen;
 }
 p span.orange {
     color: orange;
 }
 p span.grey {
-    color: #888;
+    color: #aaa;
+}
+.night p span.grey {
+    color: #555;
 }
 
 div.hangingindent p{
