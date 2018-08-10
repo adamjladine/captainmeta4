@@ -1,19 +1,20 @@
 
 **Internet Chat Room**
 
-<span class="grey">22:36:20 →thanlols has logged in</span>
+<pre>
+<span class="grey">22:36:20 →thanlols has logged in</span><br>
 
-<span class="grey">22:36:21 thanlols was opped (</span><span class="red">+o</span><span class="grey">) by </span><span class="red">@</span><span class="grey">ChanServ</span>
+<span class="grey">22:36:21 thanlols was opped (</span><span class="red">+o</span><span class="grey">) by </span><span class="red">@</span><span class="grey">ChanServ</span><br>
 
-<span class="grey">22:36:21</span> &lt;<span class="red">@</span>thanlols> anyone seen toxxxic?
+<span class="grey">22:36:21</span> &lt;<span class="red">@</span>thanlols> anyone seen toxxxic?<br>
 
-<span class="grey">22:37:15</span> \<xXcarvrXx> nah man
+<span class="grey">22:37:15</span> \<xXcarvrXx> nah man<br>
     
-<span class="grey">22:38:09</span> &lt;<span class="red">@</span>thanlols> .seen toxxxic
+<span class="grey">22:38:09</span> &lt;<span class="red">@</span>thanlols> .seen toxxxic<br>
 
-<span class="grey">22:38:10</span> &lt;<span class="green">+</span>screwgle> toxxxic was last seen 9 days and 16 hours ago saying “i’ve gotta get going. Flight’s boarding”
+<span class="grey">22:38:10</span> &lt;<span class="green">+</span>screwgle> toxxxic was last seen 9 days and 16 hours ago saying “i’ve gotta get going. Flight’s boarding”<br>
 
-<span class="grey">22:38:39</span> \<xXcarvrXx> IIRC he was going to go see his kid at her college
+<span class="grey">22:38:39</span> \<xXcarvrXx> IIRC he was going to go see his kid at her college<br>
 
 <span class="grey">22:38:54</span> \<xXcarvrXx> could be wrong tho
 
