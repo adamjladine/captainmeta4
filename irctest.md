@@ -1,7 +1,8 @@
 
 **Internet Chat Room**
 
-<div class="irclogs">
+<div>
+    
 <span class="grey">22:36:20 →thanlols has logged in</span>
 
 <span class="grey">22:36:21 thanlols was opped (<span class="red">+o</span>) by <span class="red">@</span>ChanServ</span>
