@@ -1,7 +1,7 @@
 
 **Internet Chat Room**
 
-
+<div class="irclogs">
 <span class="grey">22:36:20 →thanlols has logged in</span>
 
 <span class="grey">22:36:21 thanlols was opped (<span class="red">+o</span>) by <span class="red">@</span>ChanServ</span>
@@ -71,4 +71,4 @@
 <span class="grey">22:42:59</span> &lt;<span class="red">@</span>thanlols> skivmaster: i trade you mind if you trade me yours
 
 <span class="grey">22:43:09</span> \<skivmaster> thanlols: deal lol
-    
+</div>
