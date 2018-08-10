@@ -1,7 +1,7 @@
 
 **Internet Chat Room**
 
-<pre style="word-wrap:normal">
+<pre style="word-wrap:initial">
 <span class="grey">22:36:20 →thanlols has logged in</span>
 
 <span class="grey">22:36:21 thanlols was opped (</span><span style="color:red">+o</span><span class="grey">) by </span><span style="color:red">@</span><span class="grey">ChanServ</span>
