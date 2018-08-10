@@ -1,34 +1,34 @@
 
 **Internet Chat Room**
 
-<pre style="word-wrap:break-word">
+<pre style="word-wrap:normal">
 <span class="grey">22:36:20 →thanlols has logged in</span>
 
-<span class="grey">22:36:21 thanlols was opped (</span><span style="color:red">+o</span><span class="grey">) by </span><span class="red">@</span><span class="grey">ChanServ</span>
+<span class="grey">22:36:21 thanlols was opped (</span><span style="color:red">+o</span><span class="grey">) by </span><span style="color:red">@</span><span class="grey">ChanServ</span>
 
 <span class="grey">22:36:21</span> &lt;<span class="red">@</span>thanlols> anyone seen toxxxic?
 
-<span class="grey">22:37:15</span> \<xXcarvrXx> nah man
+<span class="grey">22:37:15</span> &lt;xXcarvrXx> nah man
     
-<span class="grey">22:38:09</span> &lt;<span class="red">@</span>thanlols> .seen toxxxic
+<span class="grey">22:38:09</span> &lt;<span style="color:red">@</span>thanlols> .seen toxxxic
 
-<span class="grey">22:38:10</span> &lt;<span class="green">+</span>screwgle> toxxxic was last seen 9 days and 16 hours ago saying “i’ve gotta get going. Flight’s boarding”
+<span class="grey">22:38:10</span> &lt;<span style="color:green">+</span>screwgle> toxxxic was last seen 9 days and 16 hours ago saying “i’ve gotta get going. Flight’s boarding”
 
-<span class="grey">22:38:39</span> \<xXcarvrXx> IIRC he was going to go see his kid at her college
+<span class="grey">22:38:39</span> &lt;xXcarvrXx> IIRC he was going to go see his kid at her college
 
-<span class="grey">22:38:54</span> \<xXcarvrXx> could be wrong tho
+<span class="grey">22:38:54</span> &lt;xXcarvrXx> could be wrong tho
 
-<span class="grey">22:39:01</span> \<skivmaster> the pizza girl?
+<span class="grey">22:39:01</span> &lt;skivmaster> the pizza girl?
 
-<span class="grey">22:39:12</span> \<xXcarvrXx> yah
+<span class="grey">22:39:12</span> &lt;xXcarvrXx> yah
 
-<span class="grey">22:39:39</span> \<skivmaster> too old for my tastes lol
+<span class="grey">22:39:39</span> &lt;skivmaster> too old for my tastes lol
 
-<span class="grey">22:40:03</span> \<skivmaster> ( ͡° ͜ʖ ͡°)
+<span class="grey">22:40:03</span> &lt;skivmaster> ( ͡° ͜ʖ ͡°)
 
-<span class="grey">22:40:05</span> \<xXcarvrXx> lol
+<span class="grey">22:40:05</span> &lt;xXcarvrXx> lol
 
-<span class="grey">22:40:06 ←skivmaster was kicked by </span><span class="orange">%</span><span class="grey">AnthraxXx: you a sick mofo</span>
+<span class="grey">22:40:06 ←skivmaster was kicked by </span><span class="orange">%</span><span style="color:grey">AnthraxXx: you a sick mofo</span>
 
 <span class="grey">22:40:10 →skivmaster joined</span>
 
