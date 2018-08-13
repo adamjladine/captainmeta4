@@ -1,5 +1,5 @@
 ---
-title: Parking \"Ticket\"
+title: Parking Ticket
 ---
 
 # Parking "Ticket"
