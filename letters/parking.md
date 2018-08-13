@@ -15,6 +15,8 @@ On 11 August 2018, we found the attached “ticket” on our vehicle. As I’m s
 
 -Adam
 
+![](/assets/images/IMG_0070.JPG)
+
 ---
 
 Hi Adam!
