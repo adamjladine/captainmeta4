@@ -6,6 +6,8 @@ title: Parking Ticket
 
 *Names have been redacted to protect the stupid.*
 
+---
+
 To whom it may concern:
 
 On 11 August 2018, we found the attached “ticket” on our vehicle. As I’m sure you are aware, RedactedCorp is a private entity and does not have the authority to issue fines. I felt you should be aware that some asshole is attaching your company name and brand to fake tickets. 
