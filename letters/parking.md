@@ -38,3 +38,13 @@ Proper monetary consideration was paid. I have a credit card transaction for $9 
 But that is irrelevant. RedactedCorp is a private entity. Like all private entities, it lacks the legal authority to unilaterally impose fines of any nature. I would suggest closing out the ticket, as there is no obligation to pay it. 
 
 -Adam
+
+---
+
+Hi Adam,
+
+I think your tact here is rather interesting, not sure if it's the approach I would take!
+
+I see now, your violation indicates you were cited for parking in two spots.  I'll take a look at the photos and let you know what I think.  
+
+Thank you
