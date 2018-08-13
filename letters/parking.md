@@ -48,3 +48,19 @@ I think your tact here is rather interesting, not sure if it's the approach I wo
 I see now, your violation indicates you were cited for parking in two spots.  I'll take a look at the photos and let you know what I think.  
 
 Thank you
+
+---
+
+B:
+
+Let me be absolutely clear about something: the ticket is utterly worthless. It would have more value if used as toilet paper. It relies solely upon the recipient mistaking the ticket for a real ticket issued by law enforcement, and paying out of fear.
+
+I call this bluff.
+
+Tickets issued by law enforcement are real, must be either paid or contested in court, and have legal consequences if ignored.
+
+Tickets issued by RedactedCorp are "real" in the sense that the paper exists. They do not need to be paid, do not need to be contested, do not even need to be responded to, and have no legal consequences for ignoring.
+
+If your employer has led you to believe otherwise, then I can only express sympathy for you at their deception. 
+
+-Adam
