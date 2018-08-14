@@ -6,7 +6,7 @@ title: irctest
 
 <pre style="white-space:pre-wrap"><p><span class="grey">22:36:10 →thanlols has logged in</span></p>
 <p><span class="grey">22:36:11 thanlols was opped (</span><span class="red">+o</span><span class="grey">) by </span><span style="color:red">@</span><span class="grey">ChanServ</span></p>
-<p><span class="grey">22:36:21</span> &lt;<span class="red">@</span>thanlols> has anyone seen toxxxic?</p>
+<p><span class="grey">22:36:21</span> <<span class="red">@</span>thanlols> has anyone seen toxxxic?</p>
 <p><span class="grey">22:37:15</span> &lt;xXcarvrXx> nah man</p>
 <p><span class="grey">22:38:09</span> &lt;<span class="red">@</span>thanlols> .seen toxxxic</p>
 <p><span class="grey">22:38:10</span> &lt;<span class="green">+</span>screwgle> (thanlols) toxxxic was last seen 16 days and 5 hours ago saying: i’ve gotta get going. Flight’s boarding”</p>
