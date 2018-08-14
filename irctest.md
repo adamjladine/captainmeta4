@@ -3,7 +3,7 @@ title: irctest
 ---
 
 **Internet Chat Room**
-
+<div>
 <pre style=“white-space:pre-wrap”>
 <p><span class="grey">22:36:10 →thanlols has logged in</span></p>
 
@@ -94,4 +94,4 @@ title: irctest
 <p><span class="grey">22:45:12</span> &lt;<span class="red">@</span>thanlols> no point in drawing attention where it’s not needed</p>
 
 <p><span class="grey">22:44:05</span> &lt;hotdoggger> thanlols: got it</p>
-</pre>
+</pre></div>
