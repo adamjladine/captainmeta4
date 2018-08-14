@@ -1,0 +1,9 @@
+---
+title: irctest
+---
+
+<pre>
+
+<p>line 1 with a <span class="red">red</span> element</p>
+<p>line 2 with some <span class="green">green</span>.</p>
+</pre>
