@@ -3,7 +3,8 @@ title: irctest
 ---
 
 **Internet Chat Room**
-<div><pre style=“white-space:pre-wrap”><p><span class="grey">22:36:10 →thanlols has logged in</span></p>
+
+<div><pre style="white-space:pre-wrap"><p><span class="grey">22:36:10 →thanlols has logged in</span></p>
 <p><span class="grey">22:36:11 thanlols was opped (</span><span class="red">+o</span><span class="grey">) by </span><span style="color:red">@</span><span class="grey">ChanServ</span></p>
 <p><span class="grey">22:36:21</span> &lt;<span class="red">@</span>thanlols> has anyone seen toxxxic?</p>
 <p><span class="grey">22:37:15</span> &lt;xXcarvrXx> nah man</p>
