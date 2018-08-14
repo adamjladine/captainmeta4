@@ -4,7 +4,7 @@ title: irctest
 
 **Internet Chat Room**
 
-<div><pre style="white-space:pre-wrap"><p><span class="grey">22:36:10 →thanlols has logged in</span></p>
+<pre style="white-space:pre-wrap"><p><span class="grey">22:36:10 →thanlols has logged in</span></p>
 <p><span class="grey">22:36:11 thanlols was opped (</span><span class="red">+o</span><span class="grey">) by </span><span style="color:red">@</span><span class="grey">ChanServ</span></p>
 <p><span class="grey">22:36:21</span> &lt;<span class="red">@</span>thanlols> has anyone seen toxxxic?</p>
 <p><span class="grey">22:37:15</span> &lt;xXcarvrXx> nah man</p>
@@ -49,4 +49,4 @@ title: irctest
 <p><span class="grey">22:45:02</span> &lt;<span class="red">@</span>thanlols> hotdogger: yeah that’s good but don’t do anything yet.</p>
 <p><span class="grey">22:45:12</span> &lt;<span class="red">@</span>thanlols> no point in drawing attention where it’s not needed</p>
 <p><span class="grey">22:44:05</span> &lt;hotdoggger> thanlols: got it</p>
-</pre></div>
+</pre>
