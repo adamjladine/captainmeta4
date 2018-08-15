@@ -13,25 +13,20 @@ body section img{
 
 /*Text color for IRC logs in story*/
 
-p span.red {
+span.red {
     color: red;
 }
-p span.green {
+span.green {
     color: limegreen;
 }
-p span.orange {
+span.orange {
     color: orange;
 }
-p span.grey {
+span.grey {
     color: #aaa;
 }
-.night p span.grey {
+.night span.grey {
     color: #555;
-}
-
-div.hangingindent p{
-  padding-left: 22px ;
-  text-indent: -22px ;
 }
 
 /* Night Mode */
