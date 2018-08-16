@@ -20,16 +20,16 @@ layout: default
 <p>This chapter was {% unless page.hybrids %}also {% endunless %} produced with the support of:</p>
 <ul>
   {% if page.humans %}
-  <li>{{ page.humans }} Humans</li>
+  <li>{{ page.humans }} Human{% unless page.humans==1 %}s{% endif %}</li>
   {% endif %}
   {% if page.angels %}
-  <li>{{ page.angels }} Angelic Soldiers</li>
+  <li>{{ page.angels }} Angelic Soldier{% unless page.angels==1 %}s{% endif %}</li>
   {% endif %}
   {% if page.demons %}
-  <li>{{ page.demons }} Demon Underlings</li>
+  <li>{{ page.demons }} Demon Underling{% unless page.demons==1 %}s{% endif %}</li>
   {% endif %}
   {% if page.souls %}
-  <li>{{ page.souls }} Squishy Souls</li>
+  <li>{{ page.souls }} Squishy Soul{% unless page.souls==1 %}s{% endif %}</li>
   {% endif %}
 </ul>
 {% endif %}
