@@ -17,7 +17,7 @@ layout: default
 </ul>
 {% endif %}
 {% if page.humans or page.angels or page.demons or page.souls %}
-<p>This chapter was {% unless page.hybrids %}also {% endunless %} produced with the support of:</p>
+<p>This chapter was {% if page.hybrids %}also {% endif %} produced with the support of:</p>
 <ul>
   {% if page.humans %}
   <li>{{ page.humans }} Human{% unless page.humans==1 %}s{% endunless %}</li>
