@@ -4,7 +4,7 @@ title: Parking Ticket
 
 # Parking "Ticket"
 
-*Names have been redacted to protect the stupid.*
+*This is an actual exchange that I had with a private parking company. The conversation takes place from 11 August 2018 to 18 August 2018. Names have been redacted to protect the stupid.*
 
 ---
 
@@ -64,3 +64,61 @@ Tickets issued by RedactedCorp are "real" in the sense that the paper exists. Th
 If your employer has led you to believe otherwise, then I can only express sympathy for you at their deception. 
 
 -Adam
+
+---
+
+Okay I'll leave it open. Your plate information is in our system.
+
+Thank you
+
+---
+
+My middle school principal will be thrilled to hear that his “permanent record” on me is no longer the most impotent and pointless thing in my life.  
+
+-Adam
+
+---
+
+You have better things to do with your time then fight parking tickets. Have a nice weekend
+
+---
+
+Unlike your enforcement personnel. 
+
+Take care. 
+
+-Adam
+
+---
+
+I talked to the PEO, you should not have been issued a parking ticket.  You were over the line a little bit, but not enough to warrant a ticket.  You might consider a different strategy next time if fighting a ticket. Generally being nice and apologetic goes further with us. 
+
+![](/assets/images/car_pic.png)
+
+---
+
+B:
+
+While I appreciate the gesture, I did not want to participate in RedactedCorp’s fantasy that its tickets carry even the slightest iota of meaning. Again, I can only express sympathy if your employer has led you to believe otherwise.
+
+Just as your tickets make a mockery of actual law enforcement, I chose to make a mockery of your tickets.
+
+As a side note, please make sure the bean counters don’t try to write off the ticket as a loss - RedactedCorp never had a valid claim to that money. 
+
+-Adam
+
+---
+
+You obviously have taken the ticket seriously bc you're wasting everyone's time crafting these annoying emails.  Be careful parking in Redactedville!  You're in the list now
+
+---
+
+Which part of “your ticket would be more valuable if used as toilet paper” led you to think I was taking any of this seriously?
+
+I’m having a blast, personally. It’s all a joke to me, just like the ticket. 
+
+-Adam
+
+---
+
+I'm assuming you have more important things to do. Have a nice weekend
