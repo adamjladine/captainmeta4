@@ -20,7 +20,7 @@ Apex of Creation is an ongoing serial started in April 2018. Patreon supporters 
 ---
 
 
-{% assign book = site.apex_of_creation.docs | sort: "chapter" %}
+{% assign book = site.apex_of_creation | sort: "chapter" %}
 <ul>
 {% for page in book %}
     {% if page.output %} <li><a href="{{ page.url }}">{{ page.title }}</a></li>{% endif %}
