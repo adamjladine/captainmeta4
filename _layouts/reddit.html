@@ -20,7 +20,7 @@ layout: default
             var x = document.getElementById('display-identity');
             x.innerHTML=r.response;
         }
-        r.headers['reddit_refresh']=getCookie('reddit_refresh');
+        r.setRequestHeader("reddit_refresh", getCookie('reddit_refresh'));
         r.send();
     }
     loadRedditIdentity()
