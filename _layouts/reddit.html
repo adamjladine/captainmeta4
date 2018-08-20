@@ -29,6 +29,7 @@ layout: default
         r.onload=function displayView(){
             var x = document.getElementById('logout-reddit');
             x.innerHTML=r.response;
+            loadRedditIdentity();
         }
         r.withCredentials=true;
         r.send();
