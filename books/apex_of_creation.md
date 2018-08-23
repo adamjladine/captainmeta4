@@ -17,6 +17,8 @@ I post new chapters on Sunday mornings.
 
 Apex of Creation is an ongoing serial started in April 2018. Patreon supporters have access to [additional preview content](/patreon) and extra channels on the [Apex Discord server](https://discord.gg/U22EMg7).
 
+Apex of Creation is also available to read on [RoyalRoad](https://www.royalroad.com/fiction/20192/apex-of-creation).
+
 ---
 
 
