@@ -7,7 +7,7 @@ redirect_from: /books/apex_of_creation/
 
 ![](/assets/images/angel_demon.png)
 
-[**Patreon](https://patreon.com/captainmeta4) | [Discord](https://discord.gg/U22EMg7) | [RoyalRoad**](https://www.royalroad.com/fiction/20192/apex-of-creation)
+[**Patreon**](https://patreon.com/captainmeta4) | [**Discord**](https://discord.gg/U22EMg7) | [**RoyalRoad**](https://www.royalroad.com/fiction/20192/apex-of-creation)
 
 When James Exosia is brought back from the brink of death by an angel, he discovers that he’s returned with a spark of divinity. Upon his introduction to angels and demons, James is shocked to learn that he’s now considered a “Hybrid” - a rare combination of human blood and angelic power.
 
