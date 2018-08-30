@@ -9,8 +9,6 @@ Sixty-five million years before the Vancouver Canucks and the Arizona Coyotes su
 
 *Deathworld Origins* is a companion story to [Hambone](http://reddit.com/u/hambone1330)'s [*The Deathworlders*](http://deathworlders.com/books/deathworlders), set sixty-five million years before the events of that series. This series contains content that could spoil Deathworlders Chapter 17, so please read at least that far before beginning *Deathworld Origins*.
 
-[*Deathworld Origins* is available in Kindle format for $0.99.](https://www.amazon.com/Deathworld-Origins-u-captainmeta4-ebook/dp/B07D6RDDP9/ref=sr_1_1?ie=UTF8&qid=1531525874&sr=8-1&keywords=deathworld+origins)
-
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 <ul>
