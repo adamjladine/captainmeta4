@@ -1,3 +1,3 @@
 ---
-redirect_to: https://captainmeta4.me/books/apex_of_creation
+redirect_to: /books/apex_of_creation
 ---
