@@ -29,6 +29,27 @@ span.grey {
     color: #555;
 }
 
+/*Styling for text messages in story*/
+p[class^="iostext-"] {
+    color:white;
+    border-radius:7px;
+    padding: 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+p.iostext-me {
+    background-color:grey;
+    width: 200px;
+    text-align: right;
+    margin-left: calc(100% - 200px);
+}
+p.iostext-other {
+    background-color:blue;
+    margin-right: calc(100% - 200px);
+    text-align: left;
+}
+
+
 /* Night Mode */
 
 body.night {
