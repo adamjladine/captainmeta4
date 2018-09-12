@@ -42,12 +42,12 @@ p.iostext-me {
     width: 200px;
     text-align: right;
     max-width: 200px;
-    float: right;
+    right: 0;
 }
 p.iostext-other {
     background-color:blue;
     max-width: 200px;
-    float: left;
+    left: 0;
     text-align: left;
 }
 
