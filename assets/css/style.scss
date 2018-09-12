@@ -40,14 +40,14 @@ p[class^="iostext-"] {
 p.iostext-me {
     background-color:grey;
     text-align: right;
-    max-width: 200px;
-    margin-left: calc(100% - width);
+    width: 200px;
+    margin-left: calc(100% - 200px);
 }
 p.iostext-other {
     background-color:blue;
-    max-width: 200px;
+    width: 200px;
     text-align: left;
-    margin-right: calc(100% - width);
+    margin-right: calc(100% - 200px);
 }
 
 
