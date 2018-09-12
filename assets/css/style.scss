@@ -41,11 +41,13 @@ p.iostext-me {
     background-color:grey;
     width: 200px;
     text-align: right;
-    margin-left: calc(100% - 200px);
+    max-width: 200px;
+    float: right;
 }
 p.iostext-other {
     background-color:blue;
-    margin-right: calc(100% - 200px);
+    max-width: 200px;
+    float: left;
     text-align: left;
 }
 
