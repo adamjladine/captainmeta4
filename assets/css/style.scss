@@ -36,20 +36,18 @@ p[class^="iostext-"] {
     padding: 3px 5px;
     margin-top: 2px;
     margin-bottom: 2px;
-    position: absolute;
 }
 p.iostext-me {
     background-color:grey;
-    width: 200px;
     text-align: right;
     max-width: 200px;
-    right: 0;
+    margin-left: calc(100%-width)
 }
 p.iostext-other {
     background-color:blue;
     max-width: 200px;
-    left: 0;
     text-align: left;
+    margin-right: calc(100%-width)
 }
 
 
