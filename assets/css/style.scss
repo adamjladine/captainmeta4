@@ -32,20 +32,19 @@ span.grey {
 /*Styling for text messages in story*/
 p[class^="iostext-"] {
     color:white;
-    border-radius: 7px;
+    border-radius: 0.5em;
     padding: 3px 5px;
     margin-top: 2px;
     margin-bottom: 2px;
+    width: 200px;
 }
 p.iostext-me {
     background-color:grey;
     text-align: right;
-    width: 200px;
     margin-left: calc(100% - 200px);
 }
 p.iostext-other {
     background-color:blue;
-    width: 200px;
     text-align: left;
     margin-right: calc(100% - 200px);
 }
